@@ -14,14 +14,12 @@ function liczb(){
     document.getElementById("bambik").innerHTML = bambik;
 }
 function licznk(){
-    var a = document.getElementById("licznikk").value;
-    a = a/1
-    kon += a
+    var a = document.getElementById("licznikk").valueAsNumber;
+    kon = kon+a;
     document.getElementById("kon").innerHTML = kon;
 }
 function licznb(){
-    var b = document.getElementById("licznikb").value;
-    b = b/1
-    bambik += b
+    var b = document.getElementById("licznikb").valueAsNumber;
+    bambik = bambik+b;
     document.getElementById("bambik").innerHTML = bambik;
 }
