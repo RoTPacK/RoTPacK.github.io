@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <title>Malarz</title>
         <link rel="stylesheet" href="styl.css">
+        <script src="script.js"></script> 
     </head>
     <body>
         <div id="header">
@@ -16,9 +17,11 @@
             <a href="cena.html">Wyceniamy</a>
         </div>
         <div id="main">
-            Strona poświęcona malarstwu
+            <h3>Obliczanie na podstawie powierzchni zapotrzebowania na farbe</h3>
+            Podaj powierzchnie <input type="number" min="1" value="1" id="powierzchnia">
             <br>
-            <img src="obraz.jpeg" alt="abstrakcja">
+            <input type="button" value="Policz" onclick="policz()"><br><br><br>
+            <div id="wycena"></div>
         </div>
         <div id="footer">
             Malarz
