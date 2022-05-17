@@ -1,29 +1,18 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <title>Malarz</title>
-        <link rel="stylesheet" href="styl.css">
-    </head>
-    <body>
-        <div id="header">
-            <a href="index.html"><h1><u>Koszty farby</u></h1></a>
-        </div>
-        <div id="menu">
-            Mieszamy czy wyceniamy?
-            <br><br>
-            <a href="mieszamy.html">Mieszamy</a>
-            <br>
-            <a href="cena.html">Wyceniamy</a>
-        </div>
-        <div id="main">
-            Strona poświęcona malarstwu
-            <br>
-            <img src="obraz.jpeg" alt="abstrakcja">
-        </div>
-        <div id="footer">
-            Malarz
-            <br>
-            Stronę opracował: 0000000000
-        </div>
-    </body>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Clicker</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="load()">
+        <input type="button" id="button" onclick="getMoney()">
+        <div id="upgrade">
+            <span title="multiplier upgrade (+1x)"><input type="button" id="up" onclick="upgrade()"></span>
+            <span title="income bonus (+100₩)"><input type="button" id="up2" onclick="upgrade2()">
+            <div id="upgrades" onclick="test()">
+        </div><br>
+        <div id="cash"></div>
+</body>
 </html>
