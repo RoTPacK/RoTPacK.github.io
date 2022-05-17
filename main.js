@@ -65,7 +65,3 @@ function timer(){
     setTimeout(timer, 10000);
 }
 timer();
-function test(){
-    money = money+100000000000;
-    document.getElementById("cash").innerHTML = money+"₩";
-}
