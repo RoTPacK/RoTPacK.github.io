@@ -1,0 +1,106 @@
+.icon-twitch{
+    color: purple;
+}
+.icon-youtube-squared{
+    color: red;
+}
+.icon-steam-squared{
+    color: gray;
+}
+#header{
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    height: 50px;
+    top: 0%;
+    left: 0%;
+    font-size: 150%;
+    padding-top: 25px;
+    
+}
+#box{
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    border: 5px solid #fe9307; 
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+#logo{
+    width: 590px;
+    height: 60px;
+    border: 5px solid #7bc94c;
+    margin: 10px;
+    color: gray;
+    padding-left: 80px;
+    font-family: 'Beau Rivage';
+}
+#menur{
+    width: 320px;
+    height: 280px;
+    float: left;
+    margin: 10px;
+    border: 5px solid #4e01a6;
+}
+#menul{
+    width: 310px;
+    height: 280px;
+    float: left;
+    margin: 10px;
+    border: 5px solid #4e01a6;
+    color: gray;
+    padding-left: 10px;
+    position: relative;
+}
+#footer{
+    width: 670px;
+    height: 30px;
+    border: 5px solid #4e01a6;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+#box1{
+    width: 80px;
+    height: 80px;
+    border: 5px solid #0292d0;
+    margin: 10px;
+    margin-right: 5px;
+    float: left;
+    color: rgb(146, 43, 146);
+    font-size: 60px;
+    text-align: center;
+}
+#box2{
+    width: 80px;
+    height: 80px;
+    border: 5px solid #0292d0;
+    margin: 10px;
+    margin-right: 5px;
+    float: left;
+    color: gray;
+    font-size: 60px;
+    text-align: center;
+}
+#box3{
+    width: 80px;
+    height: 80px;
+    border: 5px solid #0292d0;
+    margin: 10px;
+    float: left;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(245, 51, 51)
+}
+#box4{
+    width: 280px;
+    height: 130px;
+    border: 5px solid #0292d0;
+    margin: 10px;
+    float: left;
+    padding-left: 10px;
+    color: gray;
+}
