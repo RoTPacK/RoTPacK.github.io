@@ -1,62 +1,50 @@
-#buttonl{
-    position: absolute;
-    width: 320px;
-    height: 330px;
-    transform: translate(-50%, -50%);
-    left: 15%;
-    top: 50%;
-    display: flex;
-    justify-content: center;
-    font-size: 350%;
-    line-height: 330px;
-    box-shadow: inset 0 0 0 0 #33cccc;
-    color: black;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+#button{
+    background: url('https://i.pinimg.com/originals/e5/8f/52/e58f521070bf76ac69d583923b499012.gif') no-repeat;
+    width: 500px;
+    height: 500px;
+    border: none;
+    float: left;
 }
-#buttonr{
-    position: absolute;
-    width: 320px;
-    height: 330px;
-    transform: translate(-50%, -50%);
-    left: 40%;
-    top: 50%;
-    font-size: 350%;
-    line-height: 330px;
-    justify-content: center;
-    display: flex;
-    box-shadow: inset 0 0 0 0 #33cccc;
-    color: black;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+#cash{
+    font-size: 120px;
+    color: green;
+    margin-left: 50px;
+    float: right;
 }
-#menu{
-    position: absolute;
-    width: 600px;
-    height: 330px;
-    transform: translate(-50%, -50%);
-    left: 80%;
-    top: 50%;
-    font-size: 150%;
-    display: flex;
-    color: white;
+#upgrade{
+    float: right;
+    width: 430px;
+}
+#up{
+    width: 100%;
+    height: 150px;
+    background: url('https://th.bing.com/th/id/R.0a4e4fdbba7521a8df432174dcc2f4ae?rik=VijnjrwsB0WzCg&pid=ImgRaw&r=0') center;
+    border: 1px solid gray;
+    float: right;
+}
+#up2{
+    width: 100%;
+    height: 150px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfRPT2vgT6NuWmt2WSSvwu-JlkBTDgHla2g&usqp=CAU') center;
+    border: 1px solid gray;
+    margin-top: 20px;
+    float: right;
 }
 body{
-    background-color: #403060;
-    background-image: radial-gradient( circle, rgba(  0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 0.8 ) 100% );
-    background-position: center center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-j0L377uVvKa2Xms05C84-3UBuArYNmwomwCVPB8V-RBLq7pfH2JmBIwNeNNkE8emcE&usqp=CAU');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+}
+#upgrades{
+    white-space: nowrap;
     overflow: hidden;
-}
-#buttonr:hover{
-    box-shadow: inset 0 0 330px 0 rgba(51, 204, 204, 0.01);
-    color: white;
-}
-#buttonl:hover{
-    box-shadow: inset 0 0 330px 0 rgba(51, 204, 204, 0.01);
-    color: white;
+    text-overflow: ellipsis;
+    float: right;
+    width: 100%;
+    height: 165px;
+    margin-top: 20px;
+    background-color: gray;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 35px;
+    color: pink;
 }
